@@ -3,6 +3,7 @@ class Cast < ApplicationRecord
   has_many :comments
   has_many :likes
 
+  
   attr_accessor :author, :timestamp, :likes, :comments
 
 end
